@@ -28,6 +28,7 @@ class TV:
     def getCanal(self):
         return self.canal
     def setCanal(self, canal):
+        if(self.estado == True)
         self.canal=canal
     @classmethod
     def setNumTV(self, numTV):
