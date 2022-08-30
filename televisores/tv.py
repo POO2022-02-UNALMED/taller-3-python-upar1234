@@ -36,11 +36,11 @@ class TV:
     def getNumTV(self):
         return self.numTV
     def turnOn(self):
-        if estado ==False:
-            estado = True
+        if self.estado ==False:
+            self.estado = True
     def turnOff(self):
-        if estado ==True:
-            estado = False
+        if self.estado ==True:
+            self.estado = False
     def canalUp(self):
         if (self.canal > 0 and self.canal <= 120)and(self.estado==True):
             self.canal+=1
