@@ -30,7 +30,7 @@ class TV:
     def setCanal(self, canal):
         self.canal=canal
     def setNumTV(self, numTV):
-        self.numTV=numTV
+        self.NumTV=numTV
     @classmethod
     def getnumTV(self):
         return self.numTV
